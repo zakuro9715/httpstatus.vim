@@ -1,0 +1,13 @@
+# venv
+/bin
+/lib
+/local
+/include
+/pyvenv.cfg
+/pip-selfcheck.json
+/man
+*.pyc
+
+# coverage
+/.coverage
+/htmlcov
