@@ -1,7 +1,7 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-pyfile autoload/httpstatus.py
+pyfile <sfile>:h:h/httpstatus.py
 python import vim
 
 function! httpstatus#print(status)
